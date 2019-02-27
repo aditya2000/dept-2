@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.projects {
+    font-family: 'Cabin', sans-serif;
+    background: #fff;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.titleProjects {
+    margin-top: 15em;
+}
+
+.titleProjects h3 {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(63, 56, 56);
+}
+
+.titleDesc p {
+    font-size: 1.15em;
+}
+
+.team {
+    padding: 1em;
+}
+
+.team-details {
+    padding: 1em;
+    margin: 1em;
+}
+
+.team-details p{
+    font-size: 1.25em;
+    padding: .5em;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    border-radius: 2px;
+}
+
+.team-details p:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.image:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
